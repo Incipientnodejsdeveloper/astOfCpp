@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "line": [
+            1,
+            1
+        ],
+        "text": "import Reverse from \"./Reverse.js\";",
+        "type": "import"
+    },
+    {
+        "id": 2,
+        "line": [
+            2,
+            2
+        ],
+        "text": "const Reverses = require(\"./Reverse.js\")",
+        "type": "variableList"
+    },
+    {
+        "id": 3,
+        "line": [
+            4,
+            4
+        ],
+        "text": "var SingleDigit = [1,2,3,4,5,8,9]",
+        "type": "variableList"
+    },
+    {
+        "id": 4,
+        "line": [
+            5,
+            5
+        ],
+        "text": "let DoubleDigit = [34,56,23]",
+        "type": "variableList"
+    },
+    {
+        "id": 5,
+        "line": [
+            7,
+            20
+        ],
+        "text": "class AddSub {\n\tconstructor(num1,num2){\n\t\tthis.num1 = num1;\n\t\tthis.num2 = num2;\n\t}\n\t\n\taddition() {\n\t\treturn this.num1 + this.num2;\n\t}\n\t\n\tSubstraction() {\n\t\treturn this.num1 + this.num2;\n\t}\n}",
+        "type": "class"
+    },
+    {
+        "id": 8,
+        "line": [
+            22,
+            31
+        ],
+        "text": "function TDMatrix(num1,num2){\n\tlet arr = []\n\tfor(let i = 0; i < num1; i++){\n\t\tlet SubArr = []\n\t\tfor(let j = 0; j < num2; j++){\n\t\t\tSubArr.push(j)\n\t\t}\n\t\tarr.push(SubArr)\n\t}\n}",
+        "type": "function"
+    },
+    {
+        "id": 15,
+        "line": [
+            33,
+            46
+        ],
+        "text": "class MultDiv {\n\tconstructor(num1,num2){\n\t\tthis.num1 = num1;\n\t\tthis.num2 = num2;\n\t}\n\t\n\tMultiplication() {\n\t\treturn this.num1 * this.num2;\n\t}\n\t\n\tDivision() {\n\t\treturn this.num1/this.num2;\n\t}\n}",
+        "type": "class"
+    },
+    {
+        "id": 18,
+        "line": [
+            48,
+            48
+        ],
+        "text": "const MultipliedNum = new MultDiv(34,67)",
+        "type": "variableList"
+    },
+    {
+        "id": 19,
+        "line": [
+            49,
+            49
+        ],
+        "text": "console.log(MultipliedNum.Multiplication())",
+        "type": "keywords"
+    },
+    {
+        "id": 20,
+        "line": [
+            51,
+            56
+        ],
+        "text": "function CallReverse(){\n\tlet val = Reverse(SingleDigit)\n\tlet addVal = new AddSub(34,55)\n\tval.push(addVal.addition())\n\treturn val;\n}",
+        "type": "function"
+    },
+    {
+        "id": 24,
+        "line": [
+            58,
+            58
+        ],
+        "text": "const RevAs = CallReverse()",
+        "type": "variableList"
+    },
+    {
+        "id": 25,
+        "line": [
+            59,
+            59
+        ],
+        "text": "console.log(RevAs)",
+        "type": "keywords"
+    }
+]
